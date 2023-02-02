@@ -1,0 +1,10 @@
+# In this doc we will mention all the plugins we need to install.
+# In projects this is the way to be followed. we don't install manually
+
+pytest==7.2.0
+selenium
+webdriver-manager
+pytest-html
+pytest-xdist     #for parallel testing
+openpyxl        #to work with excel files
+allure-pytest   #to generate allure reports
